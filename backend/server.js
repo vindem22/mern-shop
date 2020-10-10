@@ -1,6 +1,11 @@
-const express = require("express");
-const dotenv = require("dotenv");
-const products = require("./data/products");
+/* 
+ESMA 2015 syntax,to use it instead of nodejs syntax
+in package.json: "type" : "module"
+*/
+
+import express from "express";
+import dotenv from "dotenv";
+import products from "./data/products.js";
 
 dotenv.config();
 
